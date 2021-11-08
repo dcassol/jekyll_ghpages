@@ -1,0 +1,42 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://www.MyName.com
+title: My Name
+email: email@gmail.com
+author: MYNAME
+description: "MyName's Personal Page"
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+# Build sitemap
+plugins:
+  - jekyll-sitemap
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - icon: github
+    title: github
+    url: https://github.com/NyName 
+  - icon: envelope-o
+    title: email
+    url: mailto:NyName@gmail.com
+  - icon: linkedin
+    title: linkedin
+    url: https://www.linkedin.com/in/NyName/
+#  - icon: file-pdf-o
+#    title: CV
+#    url: img/MyCV.pdf
+  - icon: twitter
+    title: twitter
+    url: https://twitter.com/MyName
+
